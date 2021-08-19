@@ -2,7 +2,7 @@ def Merge_Sort(L): #TIME COMPLEXITY IS O(N*Log(N))
     n=len(L)
     
     if n<2:
-        return L[:]
+        return L[:] #SIMILAR TO RETURN L
     else:
         mid=n//2
         return merge(Merge_Sort(L[:mid]),Merge_Sort(L[mid:]))
