@@ -1,7 +1,7 @@
 def Selection_Sort(L):
     n=len(L)
     
-    for i in range(n-1):
+    for i in range(0,n-1):
         for j in range(i+1,n):
             if L[i]>L[j]:
                 L[i],L[j]=L[j],L[i]
