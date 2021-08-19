@@ -1,5 +1,5 @@
 # Sorting-Techniques
-Collection of Sorting Techniques implemented using Python
+Collection of Sorting Techniques implemented in Python
 
 [1. Selection Sort](Selection_Sort.py)<br>
 [2. Bubble Sort](Bubble_Sort.py)<br>
