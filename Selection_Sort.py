@@ -1,4 +1,4 @@
-def Selection_Sort(L):
+def Selection_Sort(L): #TIME COMPLEXITY IS O(N^2)
     n=len(L)
     
     for i in range(0,n-1):
