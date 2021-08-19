@@ -8,7 +8,7 @@ def Selection_Sort(L):
     return L
 
 
-L=list(map(int,input().split())) #INPUT ELEMENTS OF LIST AS - 3 2 1 4 5
+L=list(map(int,input().split())) #INPUT LIST AS - 3 2 1 4 5
 
 sorted_L=Selection_Sort(L)
 
