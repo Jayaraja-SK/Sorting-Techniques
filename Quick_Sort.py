@@ -23,7 +23,7 @@ def Quick_Sort(L,left,right): #TIME COMPLEXITY IS O(N**2) IN  WORST CASE AND O(N
     return L
 
 
-L=list(map(int,input().split()))
+L=list(map(int,input().split())) # INPUT LIST AS - 3 2 1 4 5
 
 sorted_L=Quick_Sort(L,0,len(L)) #SEGREGATING SMALLER AND LARGER ELEMENTS SEPARATELY W.R.T. PIVOT
 
