@@ -1,5 +1,5 @@
 # Sorting-Techniques
-Collection of Sorting Techniques implemented in Python
+### Collection of Sorting Techniques implemented in Python
 
 [1. Selection Sort](Selection_Sort.py)<br>
 - Time complexity is O(N^2)
