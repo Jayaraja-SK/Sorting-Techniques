@@ -19,11 +19,15 @@
 - Extra space is required as a new list is created everytime
 
 [5. Shell Sort](Shell_Sort.py)<br>
-- Time complexity is O(N^2)
+- Time complexity is O($${N^2}$$)
 
 [6. Quick Sort](Quick_Sort.py)<br>
 - Worst case time complexity is O(N^2)
 - Avg. case time complexity is O(N*log(N))
 - Choose 1st element as pivot and move elements that are smaller than the pivot towards left of the pivot and the larger ones to the right
 - After moving, sort the elements that are smaller than the pivot separately and larger than the pivot separately
-- Works in-place as no extra space is required
+- Works in-place and no extra space is required
+
+[7. Heap Sort](Heap_Sort.py)<br>
+- Time complexity is O(N*log(N))
+- Works in-place and no extra space is required
